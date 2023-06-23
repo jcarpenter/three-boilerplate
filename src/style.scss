@@ -1,0 +1,38 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 
+Universal box sizing with inheritance:
+Reset box-sizing to border-box for all elements (including
+pseudo elements). Set on html, and then tell all elements
+to inherit. This allows elements to override.
+Per: https://css-tricks.com/box-sizing/
+*/
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  word-break: normal;
+}
+
+body {
+  margin: 0;
+}
+
+#three-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
