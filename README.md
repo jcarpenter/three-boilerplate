@@ -7,13 +7,13 @@ A starting point for [Three.js](https://threejs.org/) projects. Uses [Vite](http
 Clone the repo:
 
 ```
-$ git clone sso://user/joshcarpenter/tilefetcher
+$ git clone sso://user/joshcarpenter/
 ```
 
 Change working directory:
 
 ```
-$ cd tilefetcher
+$ cd three-boilerplate
 ```
 
 Install dependencies:
